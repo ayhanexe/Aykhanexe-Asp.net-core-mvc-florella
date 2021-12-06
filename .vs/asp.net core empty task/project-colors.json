@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d959a7c1-8ef7-4f66-bf7a-0e40b3e646fb": {
+      "ProjectGuid": "d959a7c1-8ef7-4f66-bf7a-0e40b3e646fb",
+      "DisplayName": "asp.net core empty task",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
