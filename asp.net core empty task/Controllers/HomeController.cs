@@ -22,13 +22,24 @@ namespace asp.net_core_empty_task.Controllers
             List<SliderItem> sliderItems = _context.SliderItem.ToList();
             VideoSection videoSection = _context.VideoSections.FirstOrDefault();
             List<VideoSectionItem> videoSectionItems = _context.VideoSectionsItems.ToList();
+            List<Category> categories = _context.Categories.ToList();
+            List<Product> products = _context.Products.ToList();
+            Subscription subscription = _context.Subscription.FirstOrDefault();
+
+            Experts experts = _context.Experts.FirstOrDefault();
+            List<ExpertItem> expertItems = _context.ExpertItems.ToList();
 
             HomeIndexModelView model = new HomeIndexModelView()
             {
                 slider = slider,
                 sliderItems = sliderItems,
                 videoSection = videoSection,
-                videoSectionItems = videoSectionItems
+                videoSectionItems = videoSectionItems,
+                categories = categories,
+                products = products,
+                subscription = subscription,
+                experts = experts,
+                expertItems = expertItems
             };
             return View(model);
         }
