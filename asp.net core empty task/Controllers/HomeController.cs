@@ -23,7 +23,7 @@ namespace asp.net_core_empty_task.Controllers
             VideoSection videoSection = _context.VideoSections.FirstOrDefault();
             List<VideoSectionItem> videoSectionItems = _context.VideoSectionsItems.ToList();
             List<Category> categories = _context.Categories.ToList();
-            List<Product> products = _context.Products.ToList();
+            List<Product> products = _context.Products.Take(4).ToList();
             Subscription subscription = _context.Subscription.FirstOrDefault();
 
             Experts experts = _context.Experts.FirstOrDefault();
@@ -41,6 +41,9 @@ namespace asp.net_core_empty_task.Controllers
                 experts = experts,
                 expertItems = expertItems
             };
+
+            ViewBag.SkipCount = products.Count;
+
             return View(model);
         }
     }
