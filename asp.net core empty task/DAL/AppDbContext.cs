@@ -16,5 +16,10 @@ namespace asp.net_core_empty_task.DAL
         public DbSet<Subscription> Subscription { get; set; }
         public DbSet<Experts> Experts { get; set; }
         public DbSet<ExpertItem> ExpertItems { get; set; }
+        public DbSet<Header> Header { get; set; }
+        public DbSet<Footer> Footer { get; set; }
+        public DbSet<Blog> Blog { get; set; }
+        public DbSet<BlogItem> BlogItems { get; set; }
+        public DbSet<Say> SayItems { get; set; }
     }
 }

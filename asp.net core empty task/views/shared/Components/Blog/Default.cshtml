@@ -1,0 +1,37 @@
+﻿@model BlogViewModel
+
+<section id="blog">
+    <div class="container">
+        <div class="row py-5">
+            <div class="offset-lg-3 col-lg-6">
+                <div class="section-title">
+                    <h1>@Model.blog.Title</h1>
+                    <p class="text-black-50">
+                        @Model.blog.Description
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row pb-5">
+            @foreach (var blogItem in @Model.blogItems)
+            {
+                <div class="col-md-6 col-lg-4">
+                    <div class="item">
+                        <div class="img position-relative">
+                            <img src="@blogItem.image" class="img-fluid" alt="">
+                            <div class="date rounded bg-light position-absolute py-1 px-2">
+                                <span>@blogItem.Date.ToShortDateString()</span>
+                            </div>
+                        </div>
+                        <div class="text mt-3 text-center px-5">
+                            <h5>@blogItem.Title</h5>
+                            <p class="text-black-50">
+                                @blogItem.Description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
