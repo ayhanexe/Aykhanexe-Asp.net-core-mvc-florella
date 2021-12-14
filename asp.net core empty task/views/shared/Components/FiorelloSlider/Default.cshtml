@@ -1,0 +1,13 @@
+﻿@model FiorelloSliderModelView
+
+<section id="instagram">
+    <div class="owl-carousel instagram">
+        @foreach (var sliderItem in @Model.fiorelloSliderItems)
+        {
+            <div><img src="@sliderItem.imageUrl" class="img-fluid" alt=""></div>
+        }
+    </div>
+    <div class="hastag bg-light text-muted py-2 px-3">
+        @Model.fiorelloSlider.text
+    </div>
+</section>

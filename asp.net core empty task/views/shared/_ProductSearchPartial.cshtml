@@ -1,0 +1,18 @@
+﻿@model List<Product>
+
+@{
+    if (@Model.Count == 0)
+    {
+        <li>Netice Tapilmadi</li>
+    }
+    else
+    {
+        @foreach (var product in @Model)
+        {
+            <li class="d-flex p-0 m-0">
+                <img src="@product.Photo" style="width:100px;">
+                <span>@product.Name</span>
+            </li>
+        }
+    }
+}

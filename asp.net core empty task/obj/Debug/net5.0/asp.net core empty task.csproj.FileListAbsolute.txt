@@ -287,3 +287,5 @@ C:\Users\Aykhan\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core 
 C:\Users\Aykhan\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Footer\Default.cshtml.g.cs
 C:\Users\Aykhan\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Blog\Default.cshtml.g.cs
 C:\Users\Aykhan\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Say\Default.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\_ProductSearchPartial.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\FiorelloSlider\Default.cshtml.g.cs

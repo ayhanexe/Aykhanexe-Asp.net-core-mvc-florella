@@ -4,6 +4,7 @@ $(document).ready(function () {
 
     $(document).on('click', '#search', function () {
         $(this).next().toggle();
+        $(this).next().next().toggle();
     })
 
     $(document).on('click', '#mobile-navbar-close', function () {
@@ -148,6 +149,22 @@ $(document).ready(function () {
                 $("#product-items-container").append(res);
                 console.log(skipCount);
                 skipCount += 4
+            }
+        })
+    })
+
+    $("#input-search").on("keydown", function () {
+        $("#product-search-container").empty();
+    })
+
+    $("#input-search").on("keyup", function () {
+        const value = $(this).val();
+
+        $.ajax({
+            type: "GET",
+            url: `Product/Api?search=${value}`,
+            success: function (ref) {
+                $("#product-search-container").append(ref);
             }
         })
     })

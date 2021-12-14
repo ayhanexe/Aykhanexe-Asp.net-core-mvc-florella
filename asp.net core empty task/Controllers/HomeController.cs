@@ -29,6 +29,7 @@ namespace asp.net_core_empty_task.Controllers
             Experts experts = _context.Experts.FirstOrDefault();
             List<ExpertItem> expertItems = _context.ExpertItems.ToList();
 
+
             HomeIndexModelView model = new HomeIndexModelView()
             {
                 slider = slider,
@@ -39,7 +40,7 @@ namespace asp.net_core_empty_task.Controllers
                 products = products,
                 subscription = subscription,
                 experts = experts,
-                expertItems = expertItems
+                expertItems = expertItems,
             };
 
             ViewBag.SkipCount = products.Count;

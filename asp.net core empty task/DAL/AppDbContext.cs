@@ -21,5 +21,7 @@ namespace asp.net_core_empty_task.DAL
         public DbSet<Blog> Blog { get; set; }
         public DbSet<BlogItem> BlogItems { get; set; }
         public DbSet<Say> SayItems { get; set; }
+        public DbSet<FiorelloSlider> FiorelloSlider { get; set; }
+        public DbSet<FiorelloSliderItem> FiorelloSliderItems { get; set; }
     }
 }
