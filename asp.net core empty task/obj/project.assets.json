@@ -7154,11 +7154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aykhan\\Desktop\\Aykhanexe-Asp.net-core-mvc-florella-master\\asp.net core empty task\\asp.net core empty task.csproj",
+      "projectUniqueName": "C:\\Users\\Aykhan\\Desktop\\Yeni klasör\\Aykhanexe-Asp.net-core-mvc-florella\\asp.net core empty task\\asp.net core empty task.csproj",
       "projectName": "asp.net core empty task",
-      "projectPath": "C:\\Users\\Aykhan\\Desktop\\Aykhanexe-Asp.net-core-mvc-florella-master\\asp.net core empty task\\asp.net core empty task.csproj",
+      "projectPath": "C:\\Users\\Aykhan\\Desktop\\Yeni klasör\\Aykhanexe-Asp.net-core-mvc-florella\\asp.net core empty task\\asp.net core empty task.csproj",
       "packagesPath": "C:\\Users\\Aykhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aykhan\\Desktop\\Aykhanexe-Asp.net-core-mvc-florella-master\\asp.net core empty task\\obj\\",
+      "outputPath": "C:\\Users\\Aykhan\\Desktop\\Yeni klasör\\Aykhanexe-Asp.net-core-mvc-florella\\asp.net core empty task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aykhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

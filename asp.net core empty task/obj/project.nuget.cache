@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WxqaAD9Ab5gFAkj9Gnfwe2aJiQfjq58YOwaVN2Zt58Dhj08e0KFmL9ZB92DynMYg9Ed0a1Cl6SgS7EWaFz6nyA==",
+  "dgSpecHash": "tQl7HB+FdlDRVgOWeUjHObk+gcqFlvwUnjXBjSvS++KrEJM1AP4HPkBRkTMeSaKMpTvnUauI/CWp4OmqygIieQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aykhan\\Desktop\\Aykhanexe-Asp.net-core-mvc-florella-master\\asp.net core empty task\\asp.net core empty task.csproj",
+  "projectFilePath": "C:\\Users\\Aykhan\\Desktop\\Yeni klasör\\Aykhanexe-Asp.net-core-mvc-florella\\asp.net core empty task\\asp.net core empty task.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aykhan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aykhan\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

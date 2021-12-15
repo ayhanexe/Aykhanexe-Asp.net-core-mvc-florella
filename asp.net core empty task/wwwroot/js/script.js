@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(async function () {
 
     // HEADER
 
@@ -169,4 +169,41 @@ $(document).ready(function () {
         })
     })
 
+    $(".add-to-card").on("click", function () {
+        const id = $(this).data("id");
+
+        $.ajax({
+            type: "GET",
+            url: `Basket/AddToBasket/${id}`,
+            success: async function (ref) {
+                await setBasketCount();
+            }
+        })
+    })
+
+
+    await checkBasket();
+    await setBasketCount();
 })
+
+async function checkBasket() {
+    $.ajax({
+        type: "GET",
+        url: "Basket/CheckBasket",
+        success: (ref) => console.log("checked basket!")
+    })
+}
+
+async function setBasketCount() {
+    $("#basket-count").text(await getBasketCount())
+}
+
+async function getBasketCount() {
+    return await $.ajax({
+        type: "GET",
+        url: "Basket/BasketItemCount",
+        success: function (ref) {
+            return ref;
+        }
+    })
+}
