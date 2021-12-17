@@ -1,0 +1,21 @@
+﻿@model Category
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Category Creation Form</h4>
+            <form class="forms-sample" asp-controller="Category" asp-action="Create">
+                <div class="form-group">
+                    <label for="exampleInputUsername1" asp-for="Name">Name</label>
+                    <input type="text" class="form-control" placeholder="Name" asp-for="Name">
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputUsername1" asp-for="Description">Description</label>
+                    <input type="text" class="form-control" placeholder="Description" asp-for="Description">
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

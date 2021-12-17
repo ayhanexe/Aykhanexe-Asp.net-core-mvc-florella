@@ -1,0 +1,17 @@
+﻿@model Header
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Edit Header</h4>
+            <form class="forms-sample" asp-controller="Header" asp-action="Index">
+                <div class="form-group">
+                    <label for="exampleInputUsername1" asp-for="Logo">Logo</label>
+                    <input type="text" class="form-control" placeholder="Logo Url" asp-for="Logo" value="@Model?.Logo">
+                    <span class="text-danger" asp-validation-for="Logo"></span>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
