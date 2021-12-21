@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace asp.net_core_empty_task.Models
@@ -18,5 +19,8 @@ namespace asp.net_core_empty_task.Models
         [Column("LogoUrl")]
         [MaxLength(200)]
         public string Logo { get; set; }
+
+        [NotMapped]
+        public IFormFile Photo { get; set; }
     }
 }

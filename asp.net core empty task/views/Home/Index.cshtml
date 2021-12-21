@@ -11,7 +11,7 @@
             @foreach (var sliderItem in Model.sliderItems)
             {
                 <div>
-                    @Html.Raw(sliderItem.image)
+                    <img src="~/img/@sliderItem.image"/>
                 </div>
             }
         </div>
