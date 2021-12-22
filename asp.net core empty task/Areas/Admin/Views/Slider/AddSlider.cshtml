@@ -1,0 +1,17 @@
+﻿@model SliderMultipleViewModel
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Category Creation Form</h4>
+            <form class="forms-sample" enctype="multipart/form-data" method="post" asp-controller="Slider" asp-action="AddMultiple">
+                <div class="form-group">
+                    <label for="exampleInputUsername1" asp-for="sliderItems">Name</label>
+                    <input type="file" accept="image/*" multiple class="form-control" asp-for="sliderItems" placeholder="Photo">
+                    <span class="text-danger" asp-validation-for="sliderItems"></span>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

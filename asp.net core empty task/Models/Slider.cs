@@ -8,5 +8,7 @@ namespace asp.net_core_empty_task.Models
         public string title { get; set; }
         public string desc { get; set; }
         public string logo { get; set; }
+
+        public List<SliderItem> sliderItems { get; set; }
     }
 }

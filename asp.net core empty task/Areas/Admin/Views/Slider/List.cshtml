@@ -1,0 +1,16 @@
+﻿@model List<SliderItem>
+
+<div class="d-flex flex-column gap-5">
+    @foreach (var item in @Model)
+    {
+        <div class="d-flex align-items-center gap-5">
+            <img src="~/img/@item.image" style="width:250px; height:100px; object-fit:cover; object-position:center;" />
+            <a asp-controller="Slider" asp-action="Edit" asp-route-id="@item.id">
+                <button class="btn btn-sm btn-primary">Edit</button>
+            </a>
+            <a asp-controller="Slider" asp-action="Delete" asp-route-id="@item.id">
+                <button class="btn btn-sm btn-danger">Delete</button>
+            </a>
+        </div>
+    }
+</div>

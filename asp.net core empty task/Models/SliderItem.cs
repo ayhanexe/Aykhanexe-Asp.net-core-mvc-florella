@@ -10,5 +10,8 @@ namespace asp.net_core_empty_task.Models
 
         [NotMapped]
         public IFormFile Photo { get; set; }
+
+        [ForeignKey("sliderId")]
+        public Slider slider { get; set; }
     }
 }

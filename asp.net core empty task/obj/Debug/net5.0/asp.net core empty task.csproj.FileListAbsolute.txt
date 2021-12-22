@@ -450,3 +450,6 @@ C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net
 C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\ref\asp.net core empty task.dll
 C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.pdb
 C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.genruntimeconfig.cache
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\List.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\Edit.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\AddSlider.cshtml.g.cs

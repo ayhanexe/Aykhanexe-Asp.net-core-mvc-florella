@@ -215,10 +215,18 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" asp-action="Index" asp-controller="Slider">
-              <i class="mdi mdi-grid-large menu-icon"></i>
-              <span class="menu-title">Add Slider Item</span>
+            <a class="nav-link" data-bs-toggle="collapse" href="#ui-slider" aria-expanded="false" aria-controls="ui-basic">
+              <i class="mdi mdi-circle-outline menu-icon"></i>
+              <span class="menu-title">Manage Sliders</span>
+              <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="ui-slider">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" asp-controller="Slider" asp-action="Index">Add Slider Item</a></li>
+                <li class="nav-item"> <a class="nav-link" asp-controller="Slider" asp-action="List">List Slider</a></li>
+                <li class="nav-item"> <a class="nav-link" asp-controller="Slider" asp-action="AddSlider">Add Slider</a></li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pages/icons/mdi.html">
