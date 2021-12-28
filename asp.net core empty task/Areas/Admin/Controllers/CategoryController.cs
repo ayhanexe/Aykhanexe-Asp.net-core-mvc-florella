@@ -1,4 +1,4 @@
-﻿	using asp.net_core_empty_task.DAL;
+﻿using asp.net_core_empty_task.DAL;
 using asp.net_core_empty_task.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +28,7 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
         public async Task<IActionResult> Detail(int id)
         {
             Category category = await _context.Categories.FindAsync(id);
-            if(category == null)
+            if (category == null)
             {
                 return NotFound();
             }
@@ -46,7 +46,7 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
         [AutoValidateAntiforgeryToken]
         public async Task<IActionResult> Create(Category category)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View();
             }
@@ -62,7 +62,7 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
         {
             Category category = _context.Categories.Find(id);
 
-            if(category == null)
+            if (category == null)
             {
                 return BadRequest();
             }
@@ -101,5 +101,15 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
                 return NotFound("404");
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Search()
+        {
+            string searchValue = Request.Form["searchValue"];
+            var allModels = await _context.Categories.ToListAsync();
+            var model = await _context.Categories.Where(p => p.Name.Contains(searchValue)).ToListAsync();
+            return View(searchValue == "" ? allModels : model);
+        }
     }
+
 }

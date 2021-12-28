@@ -182,7 +182,6 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
 
                 await _context.SliderItem.AddAsync(sliderItem);
                 await _context.SaveChangesAsync();
-
             }
 
             return RedirectToAction("Index");

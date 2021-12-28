@@ -453,3 +453,12 @@ C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net
 C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\List.cshtml.g.cs
 C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\Edit.cshtml.g.cs
 C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\AddSlider.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\Account\Login.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\Account\Register.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Search.cshtml.g.cs
+C:\Users\Aykhan\Desktop\Yeni klasör\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\shared\_CategoryListPartialView.cshtml.g.cs

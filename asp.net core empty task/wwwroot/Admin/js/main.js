@@ -1,4 +1,20 @@
 ﻿$(document).ready(() => {
+    $("#category-list-search-input").on("keyup", function () {
+        var value = $(this).val();
+
+        $.ajax({
+            type: "POST",
+            url: "Category/Search",
+            data: {
+                searchValue: value
+            },
+            success: function (res) {
+                $("#category-body").empty();
+                $("#category-body").append(res);
+            }
+        })
+    });
+
     $(".delete-category-button").on("click", function () {
         const row = $(this).closest(".category-row")
         const id = $(row).data("category-id");

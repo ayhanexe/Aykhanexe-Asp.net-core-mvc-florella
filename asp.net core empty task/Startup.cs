@@ -1,7 +1,9 @@
 using asp.net_core_empty_task.DAL;
+using asp.net_core_empty_task.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,6 +28,14 @@ namespace asp.net_core_empty_task
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentity<User, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 5;
+                options.User.RequireUniqueEmail = true;
+            })
+            .AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
