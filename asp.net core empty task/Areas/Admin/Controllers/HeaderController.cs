@@ -1,5 +1,6 @@
 ﻿using asp.net_core_empty_task.DAL;
 using asp.net_core_empty_task.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 namespace asp.net_core_empty_task.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize()]
     public class HeaderController : Controller
     {
         private AppDbContext _context;

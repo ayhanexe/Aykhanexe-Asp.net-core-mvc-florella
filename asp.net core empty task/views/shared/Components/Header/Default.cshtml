@@ -139,6 +139,18 @@
 
                                 </ul>
                             </li>
+                            
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a asp-action="Logout" asp-controller="Account">Logout</a>
+
+                            }
+                            else
+                            {
+                                <a asp-action="Login" asp-controller="Account">Login</a>
+
+                            }
+
                             <li class="nav-item my-auto shop-cart">
                                 <i class="fas fa-shopping-bag"></i>
                                 <sup id="basket-count" class="rounded-circle">0</sup>

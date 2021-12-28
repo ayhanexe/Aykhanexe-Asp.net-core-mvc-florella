@@ -2,6 +2,7 @@
 using asp.net_core_empty_task.DAL;
 using asp.net_core_empty_task.Models;
 using asp.net_core_empty_task.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,7 @@ using System.Threading.Tasks;
 namespace asp.net_core_empty_task.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize()]
     public class SliderController : Controller
     {
         private AppDbContext _context;

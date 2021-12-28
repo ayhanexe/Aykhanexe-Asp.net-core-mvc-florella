@@ -2,6 +2,7 @@
 using asp.net_core_empty_task.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
 
 namespace asp.net_core_empty_task.Controllers
@@ -9,16 +10,48 @@ namespace asp.net_core_empty_task.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<User> _userManager;
+        private readonly SignInManager<User> _signInManager;
 
-        public AccountController(UserManager<User> userManager)
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
         }
 
         public IActionResult Login()
         {
             return View();
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Invalid Credentials");
+                return View();
+            }
+
+            var signinResult = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, true);
+
+            if (!signinResult.Succeeded)
+            {
+                ModelState.AddModelError("", "Invalid Credentials");
+                return View();
+
+            }
+
+            return RedirectToAction("Index", "Home");
+        }
+
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if(!ModelState.IsValid)
@@ -56,7 +89,14 @@ namespace asp.net_core_empty_task.Controllers
                 return View();
             }
 
+            await _signInManager.SignInAsync(user, true);
+
             return RedirectToAction(nameof(HomeController.Index), "Home");
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
