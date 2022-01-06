@@ -1,0 +1,44 @@
+﻿@model List<UserViewModel>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+                <td>@item.Role</td>
+                <td>
+                    <a asp-controller="User" asp-action="ChangePassword" asp-route-id="@item.Id">
+                        <button>Change Password</button>
+                    </a>
+                    <a asp-controller="User" asp-action="AddRole" asp-route-id="@item.Id">
+                        <button>Add Role</button>
+                    </a>
+                    <button>Deactive</button>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

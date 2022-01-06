@@ -7305,19 +7305,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aykhan\\.nuget\\packages\\": {}
+    "C:\\Users\\aykhansab\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aykhan\\Desktop\\Yeni klasör\\Aykhanexe-Asp.net-core-mvc-florella\\asp.net core empty task\\asp.net core empty task.csproj",
+      "projectUniqueName": "C:\\Users\\aykhansab\\Desktop\\Aykhanexe-Asp.net-core-mvc-florella-master\\asp.net core empty task\\asp.net core empty task.csproj",
       "projectName": "asp.net core empty task",
-      "projectPath": "C:\\Users\\Aykhan\\Desktop\\Yeni klasör\\Aykhanexe-Asp.net-core-mvc-florella\\asp.net core empty task\\asp.net core empty task.csproj",
-      "packagesPath": "C:\\Users\\Aykhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aykhan\\Desktop\\Yeni klasör\\Aykhanexe-Asp.net-core-mvc-florella\\asp.net core empty task\\obj\\",
+      "projectPath": "C:\\Users\\aykhansab\\Desktop\\Aykhanexe-Asp.net-core-mvc-florella-master\\asp.net core empty task\\asp.net core empty task.csproj",
+      "packagesPath": "C:\\Users\\aykhansab\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aykhansab\\Desktop\\Aykhanexe-Asp.net-core-mvc-florella-master\\asp.net core empty task\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aykhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aykhansab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7384,7 +7391,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

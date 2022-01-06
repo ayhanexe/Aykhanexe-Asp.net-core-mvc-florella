@@ -38,7 +38,11 @@ namespace asp.net_core_empty_task
 
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"), 
+                builder =>
+                {
+                    builder.MigrationsAssembly("asp.net core empty task");
+                });
             });
             services.AddControllersWithViews();
         }

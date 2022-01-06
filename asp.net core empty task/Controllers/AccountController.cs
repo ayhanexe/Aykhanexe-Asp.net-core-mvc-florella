@@ -1,4 +1,5 @@
-﻿using asp.net_core_empty_task.Models;
+﻿using asp.net_core_empty_task.Data;
+using asp.net_core_empty_task.Models;
 using asp.net_core_empty_task.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,12 +11,14 @@ namespace asp.net_core_empty_task.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<User> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<User> _signInManager;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _roleManager = roleManager;
         }
 
         public IActionResult Login()
@@ -78,9 +81,10 @@ namespace asp.net_core_empty_task.Controllers
                 Email = model.Email
             };
 
+            await _userManager.AddToRoleAsync(user, RoleConstants.User);
             var identityResult = await _userManager.CreateAsync(user, model.Password);
 
-            if(!identityResult.Succeeded)
+            if (!identityResult.Succeeded)
             {
                 foreach(var item in identityResult.Errors)
                 {
