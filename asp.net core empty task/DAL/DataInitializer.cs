@@ -22,7 +22,7 @@ namespace asp.net_core_empty_task.DAL
         {
             _dbContext.Database.Migrate();
 
-            if(!_dbContext.Roles.Any())
+            if (!_dbContext.Roles.Any())
             {
                 await _roleManager.CreateAsync(new IdentityRole(RoleConstants.Admin));
                 await _roleManager.CreateAsync(new IdentityRole(RoleConstants.Moderator));

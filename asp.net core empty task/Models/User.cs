@@ -7,5 +7,7 @@ namespace asp.net_core_empty_task.Models
     {
         [Required]
         public string FullName { get; set; }
+
+        public bool isBlocked { get; set; } = false;
     }
 }

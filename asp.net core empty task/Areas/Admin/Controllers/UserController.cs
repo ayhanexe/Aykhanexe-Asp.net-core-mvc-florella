@@ -1,12 +1,14 @@
 ﻿using asp.net_core_empty_task.Areas.Admin.ViewModels;
 using asp.net_core_empty_task.DAL;
 using asp.net_core_empty_task.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace asp.net_core_empty_task.Areas.Admin.Controllers
@@ -17,13 +19,14 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
         private readonly AppDbContext _dbContext;
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-
-        public UserController(AppDbContext dbContext, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+        public UserController(AppDbContext dbContext, UserManager<User> userManager, RoleManager<IdentityRole> roleManager, IHttpContextAccessor httpContextAccessor)
         {
             _dbContext = dbContext;
             _userManager = userManager;
             _roleManager = roleManager;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<IActionResult> Index()
@@ -39,7 +42,8 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
                     FullName = user.FullName,
                     Email = user.Email,
                     UserName = user.UserName,
-                    Role = (await _userManager.GetRolesAsync(user))[0]
+                    Role = (await _userManager.GetRolesAsync(user))[0],
+                    isBlocked = user.isBlocked
                 });
 
             }
@@ -128,7 +132,59 @@ namespace asp.net_core_empty_task.Areas.Admin.Controllers
                 return View();
             }
 
+            string authUserEmail = _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Email);
+            var authUser = _dbContext.Users.Where(p => p.Email == authUserEmail).FirstOrDefault();
+                Console.WriteLine(authUserEmail);
+
+            if (authUser != null && authUser.Email == user.Email)
+            {
+                return RedirectToAction("Logout", "Account", new { area = "" });
+            }
+
             return RedirectToAction("Index", "User", new { area = "Admin" });
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Deactivate(string id)
+        {
+
+            var user = await _dbContext.Users.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            user.isBlocked = true;
+            await _dbContext.SaveChangesAsync();
+
+            string authUserEmail = _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Email);
+            var authUser = _dbContext.Users.Where(p => p.Email == authUserEmail).FirstOrDefault();
+
+            if (authUser != null && authUser.Email == user.Email)
+            {
+                return RedirectToAction("Logout", "Account", new { area = "" });
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Activate(string id)
+        {
+
+            var user = await _dbContext.Users.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            user.isBlocked = false;
+            await _dbContext.SaveChangesAsync();
+
+
+            return RedirectToAction("Index");
+        }
     }
+
+
 }

@@ -30,6 +30,7 @@ namespace asp.net_core_empty_task.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
+
             if (!ModelState.IsValid)
             {
                 return View();
@@ -40,6 +41,12 @@ namespace asp.net_core_empty_task.Controllers
             if (user == null)
             {
                 ModelState.AddModelError("", "Invalid Credentials");
+                return View();
+            }
+
+            if (user.isBlocked)
+            {
+                ModelState.AddModelError("", "User is blocked!");
                 return View();
             }
 
@@ -81,8 +88,8 @@ namespace asp.net_core_empty_task.Controllers
                 Email = model.Email
             };
 
-            await _userManager.AddToRoleAsync(user, RoleConstants.User);
             var identityResult = await _userManager.CreateAsync(user, model.Password);
+            await _userManager.AddToRoleAsync(user, RoleConstants.User);
 
             if (!identityResult.Succeeded)
             {

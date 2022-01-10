@@ -640,3 +640,181 @@ C:\Users\aykhansab\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net co
 C:\Users\aykhansab\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 C:\Users\aykhansab\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\AddRole.cshtml.g.cs
 C:\Users\aykhansab\Desktop\Aykhanexe-Asp.net-core-mvc-florella-master\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\ChangePassword.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\appsettings.json
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.StaticWebAssets.xml
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.exe
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.deps.json
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.runtimeconfig.json
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.runtimeconfig.dev.json
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ref\asp.net core empty task.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.Views.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\asp.net core empty task.Views.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Humanizer.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.AssemblyInfoInputs.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.AssemblyInfo.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.csproj.CoreCompileInputs.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.RazorAssemblyInfo.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.RazorAssemblyInfo.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\scopedcss\bundle\asp.net core empty task.styles.css
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\staticwebassets\asp.net core empty task.StaticWebAssets.Manifest.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.TagHelpers.input.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.TagHelpers.output.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.RazorCoreGenerate.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Detail.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Search.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Footer\Index.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Header\Index.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\shared\_CategoryListPartialView.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\shared\_Layout.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\AddSlider.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\Edit.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\Index.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\List.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\Slider\Update.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\AddRole.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\ChangePassword.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\Account\Login.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\Account\Register.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\Home\Index.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Blog\Default.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\FiorelloSlider\Default.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Header\Default.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Product\Default.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\Components\Say\Default.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\_Layout.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\_ProductSearchPartial.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\shared\_ProductsPartialView.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\_ViewImports.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\Razor\views\_ViewStart.cshtml.g.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.RazorTargetAssemblyInfo.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.RazorTargetAssemblyInfo.cs
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.Views.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.csproj.CopyComplete
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\ref\asp.net core empty task.dll
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.pdb
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.genruntimeconfig.cache
+C:\Users\tnqar\Desktop\Aykhanexe-Asp.net-core-mvc-florella\asp.net core empty task\obj\Debug\net5.0\asp.net core empty task.csproj.AssemblyReference.cache

@@ -2,22 +2,22 @@
 
 namespace asp.net_core_empty_task.Migrations
 {
-    public partial class addFullNameToUserModel : Migration
+    public partial class addIsBlocked : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "FullName",
+            migrationBuilder.AddColumn<bool>(
+                name: "isBlocked",
                 table: "AspNetUsers",
-                type: "nvarchar(max)",
+                type: "bit",
                 nullable: false,
-                defaultValue: "");
+                defaultValue: false);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "FullName",
+                name: "isBlocked",
                 table: "AspNetUsers");
         }
     }

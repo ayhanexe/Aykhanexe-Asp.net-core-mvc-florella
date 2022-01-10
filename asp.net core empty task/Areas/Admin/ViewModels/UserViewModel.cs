@@ -13,5 +13,6 @@ namespace asp.net_core_empty_task.Areas.Admin.ViewModels
         public string Email { get; set; }
         public string UserName { get; set; }
         public string Role { get; set; }
+        public bool isBlocked { get; set; }
     }
 }
